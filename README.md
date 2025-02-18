@@ -1,6 +1,8 @@
 # HTML-CSS
 
 Learning HTML and CSS
+#study material from w3school and mdn-web-docs
+
 Html: 1. formatting 2. typography 3. Semantic 4. Tags 5. Links and hyperlinks
 
 CSS: 1. Styling 2. Cascading Style Sheets 3. inline,internal,external CSS 4. Colors-Names,rgb,rgba,hex 5. Font- em-related to the current font size of the html doc, rem- it relative em 6. vw and vh for view port height and width uses percentage of the cuurent viewport
@@ -28,3 +30,17 @@ CSS inheritance:
 
 1.  typography style is the only thing that is inheritable by the parent to the children.
 2.  layout cannot be inherited.
+
+Position: 1. fixed-- fixed to certain part of the viewport. 2. relative 3. sticky-- similar to fixed but is only fixed in certain boundaries. 4. absolute
+
+flexbox: 1. one-dimensinal layout model 2. display type- flex 3. flex-direction
+justify-content property is reposible for aligning the items on the main axis. 1. space-around: distribute item along the flex by providing space. 2. space between: space creation between items but remove space for the extreme sides.
+flex-wrap: for wrapping the items around.
+align-items: it is different from justify content by working on cross axis.
+
+Order: 1. default value of all children will be 0. 2. help to bring order in the items.
+
+align-self: specifies the alignment of items one at a time.
+flex-grow: specifies how much the item will grow relative to the rest of the flexible items inside the same character. Also if the element is not flexible item, the flex-grow property has no effect.
+flex-basis: specifies the initial length of the flexible item. it also works only on flexible items.
+flex-shrink: specifies the how the item will shrink to relative to the rest of flexible item. it also works only on flexible item.
