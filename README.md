@@ -44,3 +44,13 @@ align-self: specifies the alignment of items one at a time.
 flex-grow: specifies how much the item will grow relative to the rest of the flexible items inside the same character. Also if the element is not flexible item, the flex-grow property has no effect.
 flex-basis: specifies the initial length of the flexible item. it also works only on flexible items.
 flex-shrink: specifies the how the item will shrink to relative to the rest of flexible item. it also works only on flexible item.
+
+BEST PRACTICE MATERIAL: flexbox froggy on web play the game and complete it.
+
+Grid: 1. works on 2 dimensional layout. 2. Gridline can either be horizontal or vertical used to seperate items in grod. 3. Grid track is the space between 2 grid line. 4. Grid cell are areas sperated by four grid lines. 5. grid area are areas where one or more grid cells make up a rectangular area. 6. autofill, autofit 7. we can use flexbox properties on grid as well such as jsutify-content, align-items etc. 8. Grid-template-area layouting purpose. 9. Grid-area used to declare the name of the area into template.
+
+calc(): it is a built-in function and is used to do calculation in css. 1. width: calc(100px+100px); 2. height: calc(100px-50px);
+mix-blend-mode: it sets how the element's content should blend with the content of element's parent and the elements background.
+is(): it is a psedu selector. it take a list as argument.
+before and after psedu selector. **<very immportant>**
+not(): it also a pseudo selector.
