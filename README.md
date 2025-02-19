@@ -54,3 +54,26 @@ mix-blend-mode: it sets how the element's content should blend with the content 
 is(): it is a psedu selector. it take a list as argument.
 before and after psedu selector. **<very immportant>**
 not(): it also a pseudo selector.
+
+Animation: all works on key frames.
+@keyframes InAndOut {
+0%{
+transform: scale(2);
+}
+
+25%{
+transform: scale(0.2);
+background-color: teal;
+transform: skew(10deg);
+}
+
+#and soo on sii forth....
+}
+
+Properties in animation: 1. animation name: name that you have given to the animation. 2. animation duration: the timeduration of your animation. 3. animation iteration count: decalre the number of iteration for the animation. 4. animation timing function.
+
+<!-- media queries very important -->
+
+    @media screen and (<!----condition here----!>){
+        <!-- ---Logic here--- -->
+    }
