@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --primary-color: rgb(56, 48, 46);
+    --secondary-color: rgb(243, 201, 139);
+    --tertiary-color: #D33F49;
+    --highlight-color: #ADAABF;
+    --ascent-color: #E3D8F1;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.noto-serif {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.logo{
+    font-size: 2rem;
+    font-family: 'Noto Serif', serif;
+    color: var(--secondary-color);
+    flex: flex-start;
+    cursor: pointer;
+}
+
+.logo span{
+    color: var(--tertiary-color);
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    list-style: none;
+}
+
+ul a{
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Noto Serif', serif;
+    list-style: none;
+}
+
+ul a:hover{
+    color: var(--tertiary-color);
+    transition: 300ms ease;
+    border-bottom: 1px solid var(--ascent-color);
+}
+
+/* navbar end */
+
+/* hero */
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(./images/pexels-ash-craig-122861-376464.jpg) no-repeat center bottom/cover;
+    text-align: center;
+}   
+
+.header-title{
+    backdrop-filter: blur(5px);
+    padding: 30px;
+    border-radius: 10px;
+    line-height: 30px;
+    background: rgba(253, 203, 155, 0.5);
+    box-shadow: var(--primary-color) 1px 1px;
+}
+
+.hero h1{
+    font-size: 5rem;
+    font-family: 'Noto Serif', serif;
+    color: var(--tertiary-color);
+    text-decoration: underline;
+    text-shadow: #ADAABF 1px 1px;
+}
+
+.hero h2{
+    font-size: 3.5rem;
+    font-family: 'Noto Serif', serif;
+    color: var(--secondary-color);
+    text-shadow: var(--primary-color) 3px 3px;
+}
+
+.hero p{
+    font-size: 3rem;
+    font-family: 'Noto Serif', serif;
+    color: var(--primary-color);
+    text-shadow: #ADAABF 1px 1px;
+}
+
+.See-menu{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-family: 'Noto Serif', serif;
+    background: var(--tertiary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 300ms ease;
+}
+
+.See-menu:hover{
+    background: var(--ascent-color);
+    transition: 300ms ease;
+    color: var(--tertiary-color);
+    box-shadow: var(--primary-color) 1px 1px;
+}
