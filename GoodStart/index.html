@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GoodStart</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <nav class="navbar">
-        <div class="logo"><span>G</span>ood<span>S</span>tart</div>
+        <div class="logo"><a href="index.html"><span>G</span>ood<span>S</span>tart</a></div>
         
         <ul class="noto-serif links">
             <li><a href="">Home</a></li>
@@ -25,5 +26,85 @@
         </section>
         <button class="See-menu">See Menu</button>
     </header>
+
+    <section class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="./images/alexander-mils-pPhN8HFzkDE-unsplash.jpg" alt="Mangoshake">
+                <h3>Mango Masti</h3>
+                <p>Delicious pancake with maple syrup</p>
+                <button class="menu-btn">Order Now</button>
+            </div>
+            <div class="menu-item">
+                <img src="./images/joseph-gonzalez-zcUgjyqEwe8-unsplash.jpg" alt="Sandwhich">
+                <h3>Sandwhich</h3>
+                <p>Delicious pancake with maple syrup</p>
+                <button class="menu-btn">Order Now</button>
+            </div>
+            <div class="menu-item">
+                <img src="./images/pexels-barbland-28260046.jpg" alt="Pancake">
+                <h3>HoneyPancake</h3>
+                <p>Delicious pancake with maple syrup</p>
+                <button class="menu-btn">Order Now</button>
+            </div>
+            <div class="menu-item">
+                <img src="./images/pexels-jeshoots-216951.jpg" alt="Oatmeal">
+                <h3>Fruitmeal</h3>
+                <p>Delicious pancake with maple syrup</p>
+                <button class="menu-btn">Order Now</button>
+            </div>
+            <div class="menu-item">
+                <img src="./images/pexels-nadin-sh-78971847-21753120.jpg" alt="EggandBread">
+                <h3>Egg & Bread</h3>
+                <p>Delicious pancake with maple syrup</p>
+                <button class="menu-btn">Order Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>GoodStart</h3>
+                <p><a href="index.html">GoodStart</a> is a breakfast cafe that serves delicious breakfast items. We are dedicated to providing the best breakfast experience to our customers. We have a wide range of breakfast items to choose from. Our breakfast items are made with fresh ingredients and are prepared by our expert chefs. We also offer a variety of beverages to complement your breakfast. Visit us today and start your day with a good breakfast.</p>
+            </div>
+            <div class="about-icon">
+                <i class="fa-solid fa-user"></i>
+                <span>-- by Basudev Das</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <div class="flex-container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>GoodStart</h3>
+                    <p>1234 Breakfast Street</p>
+                    <p>Breakfast City, 12345</p>
+                    <p>Phone: 123-456-7890</p>
+                    <p>Email: example2gmail.com</p>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="text" id="name" name="name">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea id="message" name="message"></textarea>
+                    </div>
+                    <button type="submit">Send</button>
+                  </form>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

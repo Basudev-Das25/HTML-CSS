@@ -41,6 +41,11 @@ body{
     cursor: pointer;
 }
 
+.logo a{
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
 .logo span{
     color: var(--tertiary-color);
     font-weight: 900;
@@ -131,3 +136,250 @@ ul a:hover{
     color: var(--tertiary-color);
     box-shadow: var(--primary-color) 1px 1px;
 }
+
+/* Menu start */
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background: var(--ascent-color);
+    color: var(--primary-color);
+    padding: 20px;
+}
+
+.menu h2{
+    font-size: 4rem;
+    font-family: 'Noto Serif', serif;
+    color: var(--tertiary-color);
+    text-shadow: var(--primary-color) 1px 1px;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.menu-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: var(--primary-color) 1px 1px;
+    margin-left: 10px;
+    min-height: 500px;
+}
+
+.menu-item img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: var(--primary-color) 1px 1px;
+}
+
+.menu-item h3{
+    font-size: 2.5rem;
+    font-family: 'Noto Serif', serif;
+    color: var(--primary-color);
+    text-shadow: var(--ascent-color) 1px 1px;
+    text-align: center;
+}
+
+.menu-item p{
+    font-size: 1.25rem;
+    font-family: 'Noto Serif', serif;
+    color: var(--primary-color);
+    text-shadow: var(--ascent-color) 1px 1px;
+    text-align: center;
+}
+
+.menu-item button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-family: 'Noto Serif', serif;
+    background: var(--tertiary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.menu-item button:hover{
+    background: var(--ascent-color);
+    transition: 300ms ease;
+    color: var(--tertiary-color);
+    box-shadow: var(--primary-color) 1px 1px;
+}
+
+/* Menu end */
+
+/* About Us */
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+    text-align: center;
+}
+
+.about h2{
+    font-size: 4rem;
+    font-family: 'Noto Serif', serif;
+    color: var(--tertiary-color);
+    text-shadow: var(--primary-color) 1px 1px;
+}
+
+.about h3{
+    font-size: 3rem;
+    font-family: 'Noto Serif', serif;
+    color: var(--secondary-color);
+    text-shadow: var(--primary-color) 1px 1px;
+}
+
+.about p a{
+    color: var(--tertiary-color);
+    text-decoration: none;
+}
+
+.about p{
+    font-size: 2rem;
+    font-family: 'Noto Serif', serif;
+    color: var(--secondary-color);
+    text-shadow: var(--primary-color) 1px 1px;
+    text-align: center;
+}
+
+.about-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    color: var(--secondary-color);
+}
+
+.about-icon i{
+    font-size: 1.2rem;
+    color: var(--tertiary-color);
+}
+
+.about-icon span{
+    font-size: 1.5rem;
+    font-family: 'Noto Serif', serif;
+    color: var(--tertiary-color);
+}
+
+
+
+/* About Us end */
+
+/* Contact */
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--ascent-color);
+    color: var(--primary-color);
+    padding: 20px;
+    text-align: center;
+}
+
+.contact h2{
+    font-size: 4rem;
+    font-family: 'Noto Serif', serif;
+    color: var(--tertiary-color);
+    text-shadow: var(--primary-color) 1px 1px;
+}
+
+.contact h3{
+    font-size: 3rem;
+    font-family: 'Noto Serif', serif;
+    color: var(--secondary-color);
+    text-shadow: var(--primary-color) 1px 1px;
+}
+
+
+.contact-info{
+    border: #ADAABF 1px solid;
+    padding: 0 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: 'Noto Serif', serif;
+    cursor: pointer;
+    backdrop-filter: blur(5px);
+    box-shadow: var(--primary-color) 1px 1px;
+    margin: 20px;
+}
+
+.contact-info:hover{
+    background: var(--tertiary-color);
+    color: var(--secondary-color);
+    transition: 300ms ease;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-form input{
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    font-size: 1.5rem;
+    font-family: 'Noto Serif', serif;
+    border: none;
+    border-radius: 10px;
+    box-shadow: var(--primary-color) 1px 1px;
+}
+
+.contact-form textarea{
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    font-size: 1.5rem;
+    font-family: 'Noto Serif', serif;
+    border: none;
+    border-radius: 10px;
+    box-shadow: var(--primary-color) 1px 1px;
+}
+
+.contact-form button{
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-family: 'Noto Serif', serif;
+    background: var(--tertiary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contact-form button:hover{
+    background: var(--ascent-color);
+    transition: 300ms ease;
+    color: var(--tertiary-color);
+    box-shadow: var(--primary-color) 1px 1px;
+}
+
+/* Contact end */
