@@ -272,7 +272,7 @@ footer{
 
 footer .container{
     margin: 20px;
-    max-width: 300px;
+    max-width: 390px;
     text-align: center;
 }
 
@@ -293,4 +293,58 @@ span{
     font-family: sans-serif;
     text-align: center;
     margin-top: 20px;
+}
+
+
+/* footer end */
+
+/* Media Queries */
+
+@media screen and (max-width: 768px){
+    .main-heading, .primary-heading{
+        font-size: 2.5rem;
+    }
+
+    #our-story{
+        text-align: center;
+    }
+
+    #our-story .title{
+        transform: translateX(50px);
+    }
+    
+    #our-story .line{
+        display: none;
+    }
+
+    .content-section{
+        text-align: center;
+    }
+
+    #our-story .img-container .omg{
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .coffee-container .img-container{
+        margin-top: 5rem;
+        width: 50%;
+    }
+
+    .title-two{
+        margin: 0 auto;
+    }
+
+    .title{
+        margin: 0 auto;
+    }
+
+    .title-three{
+        display: none;
+    }
+
+    .para{
+        display: none;
+    }
 }
