@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+/* "Share Tech Mono", monospace */
+/* Resets */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #809BCE;
+    --main-color: #95B8D1;
+    --secondary-color: #534D56;
+    --acent-color: #157A6E;
+    --highlights-color: #499F68;
+}
+
+body{
+    background: var(--primary-color);
+    font-family: 'Share Tech Mono', monospace;
+    margin: 1rem;
+}
+
+.wrapper-container{
+    background-color: var(--main-color);
+}
+
+html{
+    font-family: 'Share Tech Mono', monospace;
+}
+/* Nav start */
+
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 5rem;
+    border-bottom: var(--secondary-color) 12px solid;
+}
+
+nav ul{
+    padding: 0 15px;
+    display: flex;
+    margin-left: 5rem;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 2rem;
+    background: var(--acent-color);
+    padding: 5px 10px;
+    margin: 5px 10px;
+    border-radius: 8px;
+}
+
+/* Nav end */
+
+/* Hero start */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem;
+    padding: 10px;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+
+.main-headings{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.primary-para{
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+
+.highlight{
+    padding: 2px 5px;
+    background  : var(--highlights-color);
+    color: black;
+}
+
+.hero-img{
+    border: #000 2px solid; 
+    width: 40%;
+    height: 50%;
+    border-radius: 30px;
+    box-shadow: var(--secondary-color) 5px 5px 5px;
+}
