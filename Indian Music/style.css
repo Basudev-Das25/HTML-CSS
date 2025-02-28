@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&family=Share+Tech+Mono&display=swap');
 
+/* "Roboto Flex", sans-serif */
 /* "Share Tech Mono", monospace */
 /* Resets */
 *{
@@ -24,6 +25,7 @@ body{
 
 .wrapper-container{
     background-color: var(--main-color);
+    padding: 10px;
 }
 
 html{
@@ -104,4 +106,38 @@ li a{
     height: 50%;
     border-radius: 30px;
     box-shadow: var(--secondary-color) 5px 5px 5px;
+}
+
+/* Hero end */
+
+/* Blog start */
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    border-bottom: #157A6E 2px solid;
+    border-radius: 10px;
+}
+.blog{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8rem;
+    padding: 10px;
+}
+
+.blog-headings{ 
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.blog-para{
+    font-size: 1.25rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+    font-family: "Roboto Flex", sans-serif;
+    line-height: 2rem;
 }
