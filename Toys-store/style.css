@@ -261,6 +261,15 @@ section .content .btn-see-more{
     margin: 0 auto;
     margin-bottom: 20px;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.products .product-items-container .item-layer:hover{
+    box-shadow: 4px 7px 5px 2px #bcbaba;
+    border-radius: 12px;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    transition: all 0.3s ease-out;
 }
 
 .products .product-items-container .item-layer img{
@@ -290,3 +299,4 @@ section .content .btn-see-more{
     cursor: pointer;
 }
 
+/* product end */
