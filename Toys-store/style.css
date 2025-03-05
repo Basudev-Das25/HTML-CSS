@@ -88,7 +88,7 @@ header {
 }
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 2rem 0;
     font-family: var(--main-font);
@@ -177,3 +177,116 @@ header {
 /* header end */   
 
 /* section start */
+section{
+    padding: 2rem 0;
+    font-family: var(--main-font);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 13rem;
+}
+
+.section-one{
+    height: 500px;
+}
+
+.section-img{
+    width: 400px;
+    height: 400px;
+    background: url(https://images.unsplash.com/photo-1599623560574-39d485900c95?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHRveXN8ZW58MHx8MHx8fDA%3D);
+    background-position: top;
+    background-size: cover;
+    border-radius: 100%;
+    box-shadow: 4px 7px 5px 2px #bcbaba;
+    transition: all 0.3s ease;
+}
+
+section .content .main-headings{
+    margin-left: 20rem;
+}
+
+section .content .primary-para{
+    margin-left: 20rem;
+}
+
+section .content .btn-see-more{
+    margin-left: 20rem;
+}
+
+.section-img:hover{
+    border-radius: 12px;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    width: 500px;
+    height: 500px;
+    transition: all 0.3s ease-out;
+}
+
+/* section end */
+
+/* Product start */
+
+.products{
+    margin-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.products .product-categories button{
+    margin-right: 20px;
+    margin-bottom: 2rem;
+}
+
+.products .product-items-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    max-width: 100rem;
+}
+
+.products .product-items-container .item{
+    margin: 20px;
+}
+
+.products .product-items-container .item-layer{
+    background: #ebf1f0;
+    padding: 5px;
+    margin-right: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.products .product-items-container .item-layer img{
+    width: 350px;
+    height: 300px;
+}
+
+
+.products .product-items-container .item .item-name{
+    font-family: var(--primary-font);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.products .product-items-container .item .item-price{
+    font-family: var(--primary-font);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.products .product-items-container .item .view-product{
+    font-family: var(--primary-font);
+    margin-bottom: 10px;    
+    text-decoration: none;
+    color: var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+    cursor: pointer;
+}
+
