@@ -56,7 +56,7 @@ nav {
 }
 
 .nav-links a:hover {
-    border: #fff 1px solid;;
+    border: #fff 1px solid;
     transition: all 0.3s ease;
 }
 
@@ -92,7 +92,7 @@ header {
     align-items: center;
     padding: 2rem 0;
     font-family: var(--main-font);
-    margin-left: 5rem;
+    margin: auto;
     height: 500px;
 }
 
@@ -168,7 +168,6 @@ header {
 .header-img:hover{
     border-radius: 12px;
     transform: scale(1.1);
-    transition: all 0.3s ease;
     width: 500px;
     height: 500px;
     transition: all 0.3s ease-out;
@@ -202,15 +201,15 @@ section{
 }
 
 section .content .main-headings{
-    margin-left: 20rem;
+    margin-left: 5rem;
 }
 
 section .content .primary-para{
-    margin-left: 20rem;
+    margin-left: 5rem;
 }
 
 section .content .btn-see-more{
-    margin-left: 20rem;
+    margin-left: 5rem;
 }
 
 .section-img:hover{
@@ -300,3 +299,207 @@ section .content .btn-see-more{
 }
 
 /* product end */
+
+/* footer start */
+
+footer{
+    background-color: var(--main-color);
+    color: white;
+    padding: 2rem 0;
+    font-family: var(--main-font);
+    text-align: center;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+    font-family: var(--main-font);
+    margin-left: 5rem;
+    height: 500px;
+}
+
+.footer-content{
+    font-size: 1.5rem;
+    font-weight: bold;
+    max-width: 500px;
+}
+
+.footer-content span{
+    color: var(--highlight-color);
+}
+
+.footer-headings{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    text-shadow: #321325 2px 2px 2px;
+}
+
+.footer-para{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.social-media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    font-family: var(--main-font);
+}
+
+.social-media-icons i{
+    font-size: 2rem;
+    margin: 0 1rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.social-media-icons i:hover{
+    color: var(--highlight-color);
+    transition: all 0.3s ease;
+}
+
+/* footer end */
+
+/* media queries */
+
+@media screen and (max-width: 1200px){
+    .container{
+        margin: 0 auto; 
+    }
+    .header-img{
+        width: 300px;
+        height: 300px;
+    }
+    .section-img{
+        width: 300px;
+        height: 300px;
+    }
+    .section-one .content .primary-para{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .nav-links{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .container{
+        margin-left: 0 auto;
+    }
+    .header-img{
+        width: 200px;
+        height: 200px;
+    }
+    .section-img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .section-one .content .main-headings{
+        margin-left: 0;       
+    }
+
+    .section-one .content .primary-para{
+        margin-left: 0;
+    }
+
+    .products{
+        margin-top: 5rem;
+        margin: 0 auto;
+    }
+
+    .products .product-categories button{
+        margin-right: 10px;
+    }
+
+    .products .product-items-container .item-layer img{
+        width: 250px;
+        height: 200px;
+    }
+
+    .footer-container{
+        margin-left: 0 auto;
+    }
+}
+
+@media screen and (max-width: 930px){
+    .container{
+        margin: 0 auto;
+    }
+    .header-img{
+        width: 200px;
+        height: 200px;
+    }
+    .section-img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .section-one .content .main-headings{
+        margin-left: 0;       
+    }
+
+    .section-one .content .primary-para{
+        margin-left: 0;
+        display: none;
+    }
+
+    .products{
+        margin-top: 5rem;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .container{
+        max-width: 100vw;
+        margin: 0 auto; 
+    }
+    .header-img{
+        width: 200px;
+        height: 200px;
+    }
+    .section-img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        margin: 0 auto; 
+    }
+    .header-img{
+        width: 150px;
+        height: 150px;
+    }
+    .section-img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .container{
+        margin: 0 auto; 
+    }
+    .header-img{
+        width: 100px;
+        height: 100px;
+    }
+    .section-img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* media queries end */
