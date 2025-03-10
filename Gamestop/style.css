@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@100..900&display=swap');
+
+:root{
+    --main-font: "Playfair Display", serif;
+    --secondary-font: "Roboto", sans-serif;
+    --main-color: #35FF69;
+    --primary-color: #FF1D15;
+    --dark-color: #1C0F13;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Nav start */
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-image: linear-gradient(#1C0F13, #35025f);
+}
+
+.logo{
+    font-family: var(--main-font);
+    font-size: 2rem;
+    color: #35FF69;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+}
+
+ul li a{
+    text-decoration: none;
+    margin: 2px 15px;
+    font-family: var(--secondary-font);
+    color: var(--main-color);
+}
+
+ul li a:hover{
+    border-bottom: var(--primary-color) 2px solid;
+    transition: all 0.1s ease-out;
+}
+
+.burger{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    transition: all 0.3s ease;
+}
+
+.burger span{
+    height: 5px;
+    width: 30px;
+    background: var(--main-color);
+    margin: 1.5px;
+}
+
+/* Nav end */
+
+
+
+
+
+/* media queries */
+
+@media screen and (min-width: 701px){
+    .burger{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .burger{
+        display: flex;
+    }
+
+    .nav-links{
+        display: none;
+    }
+}
